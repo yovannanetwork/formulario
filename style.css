@@ -1,0 +1,171 @@
+
+/* 
+Theme Name: MyPage
+Theme URI: www.miweb.com
+Description: description del tema
+Version: 1
+Author: Yovanna
+Author URL: direccion web del autor
+*/
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(48,115,183);
+	color: #fff;
+	/*font-family: 'Josefin+Slab', serif;*/
+	font-family: 'Overpass', sans-serif;
+}
+.titular{
+	margin-top: 20px;
+}
+.video form{
+	background-color: rgb(8,54,96);
+	padding: 28px 0;
+}
+.video form input{
+	margin: 15px auto;
+	width: 80%;
+}
+.video form button{
+	width: 55%;
+	padding: 18px;
+	background: rgb(248, 203, 49);
+	border-radius: 8px;
+}
+.video form p{
+	position: relative;
+	top: 20px;
+}
+.video .flecha{
+	position: relative;
+	top: 25px;
+}
+/*   seccion de video  */
+.video{
+	margin: 20px auto 0 auto;
+}
+.video video{
+	margin-top: 12px;
+}
+
+.video .video-container{
+	background-color: rgb(8,54,96);
+	height: 360px;
+	width: 96%;
+}
+.video .control{
+	position: absolute;
+	bottom: 50%;
+	left: 0;
+	right: 0;	
+}
+.video .control button{
+	background-color: rgba(40, 42, 42, 0.62);
+	padding: 8px 15px;
+	border-radius: 5px;
+	border: 1px solid rgba(40, 42, 42, 0.62);
+}
+.video .control button i{
+	font-size: 25px;
+}
+.video .flecha span{
+	font-size: 50px;
+}
+/*  seccion testimonio   */
+.testimonio{
+	margin: 0 auto 30px auto;
+}
+.testimonio h3{
+	padding: 10px;
+}
+.testimonio .nombre{
+	margin-top: 10px;
+}
+/*  footer   */
+footer{
+	padding: 15px 0;
+	background-color: rgb(8,54,96);
+}
+/*-----------pagina de gracias  */
+.gracias{
+	margin: 8% auto;
+	padding: 0;
+}
+.gracias #check{
+	font-size: 60px;
+	position: relative;
+	left: 45%;
+	top: 0;
+	bottom: 0;
+}
+.redes{
+	padding-top: 100px;
+}
+.redes span a{
+	margin: auto 10px;
+	font-size: 30px;
+	color: white;
+	text-decoration: inherit;
+}
+
+
+/*  responsive   */
+@media screen and (max-width: 768px){
+	.video form{
+		margin: auto;
+		padding: 0 0 10px 0;
+		width: 87%;
+	}
+	.video form p{
+		top: 10px;
+	}
+	.video form h2{
+		padding-top: 8px;
+	}
+	.video .video-container{
+		height: 360px;
+		width: 87%;
+		margin: auto;
+	}
+	.testimonio .nombre{
+		margin: 8px;
+	}
+	.testimonio .fillWidth{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 412px){
+	.video .video-container{
+		height: 100%;
+		width: 100%;
+	}
+	.video video{
+		width: 100%;
+	}
+	.video form{
+		width: 100%;
+	}
+	.video form button{
+		width: 80%;
+	}
+	.video form input{
+		width: 95%;
+	}
+	.video video{
+		margin-top: 0;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
